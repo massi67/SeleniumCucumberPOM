@@ -1,6 +1,7 @@
+
 Feature: Login Functionality
 
-	@Login
+	@Login @Regression
   Scenario Outline: Login with credential "<username>" | "<password>"
     Given user is on the login page
     When user enters valid "<username>" and "<password>"
